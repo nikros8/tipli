@@ -31,3 +31,7 @@ button {
   background: none;
   cursor: pointer;
 }
+
+input {
+  outline: none;
+}

@@ -8,12 +8,12 @@
   margin-top: 52px;
 }
 
-.website-description__title {
+.website-description__heading {
   font-size: 48px;
   line-height: 55.8px;
   font-weight: 400;
 }
-.website-description__title--highlighted {
+.website-description__heading--highlighted {
   color: #ec7700;
   font-weight: 600;
 }
