@@ -1,0 +1,39 @@
+.website-description {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+
+.website-description--margin-top {
+  margin-top: 52px;
+}
+
+.website-description__title {
+  font-size: 48px;
+  line-height: 55.8px;
+  font-weight: 400;
+}
+.website-description__title--highlighted {
+  color: #ec7700;
+  font-weight: 600;
+}
+
+.website-description__checklist-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+.website-description__checklist-item {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+.website-description__checklist-item-icon-checkmark {
+}
+.website-description__checklist-item-description {
+  font-size: 20px;
+  line-height: 32px;
+}
+.website-description__checklist-item-description--highlighted {
+  font-weight: 700;
+}
