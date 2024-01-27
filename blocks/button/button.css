@@ -2,13 +2,15 @@
 }
 
 .button_full-width {
+  width: 100%;
 }
 
 .button_full-height {
+  height: 100%;
 }
 
-.button_white {
+.button_color-primary {
 }
 
-.button_orange {
+.button_color-secondary {
 }
