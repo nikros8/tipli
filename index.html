@@ -5,21 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>tipli.sk</title>
     <!-- Global css -->
-    <link rel="stylesheet" href="/assets/css/reset.css" />
-    <link rel="stylesheet" href="/assets/css/global.css" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/global.css" />
     <!-- Components css -->
-    <link rel="stylesheet" href="/blocks/header/header.css" />
-    <link rel="stylesheet" href="/blocks/navbar/navbar.css" />
-    <link rel="stylesheet" href="/blocks/main/main.css" />
-    <link rel="stylesheet" href="/blocks/website-description/website-description.css" />
-    <link rel="stylesheet" href="/blocks/register-form/register-form.css" />
+    <link rel="stylesheet" href="blocks/header/header.css" />
+    <link rel="stylesheet" href="blocks/navbar/navbar.css" />
+    <link rel="stylesheet" href="blocks/main/main.css" />
+    <link rel="stylesheet" href="blocks/website-description/website-description.css" />
+    <link rel="stylesheet" href="blocks/register-form/register-form.css" />
+    <link rel="stylesheet" href="blocks/review/review.css" />
+    <link rel="stylesheet" href="blocks/donkey/donkey.css" />
   </head>
   <body>
     <header class="header">
       <div class="navbar">
         <div class="navbar__content-container">
           <a href="#" class="navbar__logo">
-            <object type="image/svg+xml" data="/assets/images/logos/logo-tipli.svg"></object>
+            <object type="image/svg+xml" data="assets/images/logos/logo-tipli.svg"></object>
           </a>
           <div class="navbar__auth-container">
             <button class="navbar__button navbar__button--login">Přihlásit se</button>
@@ -42,7 +44,7 @@
               <object
                 class="website-description__checklist-item-icon-checkmark"
                 type="image/svg+xml"
-                data="/assets/images/icons/icon-checkmark.svg"
+                data="assets/images/icons/icon-checkmark.svg"
               ></object>
               <div class="website-description__checklist-item-description">
                 Peníze vám vráti přes
@@ -60,7 +62,7 @@
               <object
                 class="website-description__checklist-item-icon-checkmark"
                 type="image/svg+xml"
-                data="/assets/images/icons/icon-checkmark.svg"
+                data="assets/images/icons/icon-checkmark.svg"
               ></object>
               <div class="website-description__checklist-item-description">
                 Navíc získate přístup k exkluzívním nabídkam a slevovým kupónům
@@ -70,10 +72,44 @@
               <object
                 class="website-description__checklist-item-icon-checkmark"
                 type="image/svg+xml"
-                data="/assets/images/icons/icon-checkmark.svg"
+                data="assets/images/icons/icon-checkmark.svg"
               ></object>
               <div class="website-description__checklist-item-description">
                 Jednoduché a úplně zdarma
+              </div>
+            </div>
+          </div>
+          <div class="review">
+            <object
+              class="review__logo"
+              type="image/svg+xml"
+              data="assets/images/logos/logo-facebook.svg"
+            ></object>
+            <div class="review__rating">
+              <div class="review__rating-stars">
+                <img
+                  class="review__rating-star-icon"
+                  src="assets/images/icons/icon-star-filled-full.svg"
+                />
+                <img
+                  class="review__rating-star-icon"
+                  src="assets/images/icons/icon-star-filled-full.svg"
+                />
+                <img
+                  class="review__rating-star-icon"
+                  src="assets/images/icons/icon-star-filled-full.svg"
+                />
+                <img
+                  class="review__rating-star-icon"
+                  src="assets/images/icons/icon-star-filled-full.svg"
+                />
+                <img
+                  class="review__rating-star-icon"
+                  src="assets/images/icons/icon-star-filled-half.svg"
+                />
+              </div>
+              <div class="review__rating-text">
+                <span class="review__rating-text--highlighted">4,8/5</span> (1 tis. hodnocení)
               </div>
             </div>
           </div>
@@ -98,21 +134,21 @@
                 <object
                   class="register-form__social-register-logo"
                   type="image/svg+xml"
-                  data="/assets/images/logos/logo-facebook.svg"
+                  data="assets/images/logos/logo-facebook.svg"
                 ></object>
               </div>
               <div class="register-form__social-register-item">
                 <object
                   class="register-form__social-register-logo"
                   type="image/svg+xml"
-                  data="/assets/images/logos/logo-apple.svg"
+                  data="assets/images/logos/logo-apple.svg"
                 ></object>
               </div>
               <div class="register-form__social-register-item">
                 <object
                   class="register-form__social-register-logo register-form__social-register-logo--smaller"
                   type="image/svg+xml"
-                  data="/assets/images/logos/logo-google.svg"
+                  data="assets/images/logos/logo-google.svg"
                 ></object>
               </div>
             </div>
@@ -125,6 +161,7 @@
           </div>
         </div>
       </div>
+      <img class="donkey" src="assets/images/illustrations/img-donkey.png" alt="Oslík" />
     </section>
   </body>
 </html>

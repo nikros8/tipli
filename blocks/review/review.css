@@ -1,0 +1,37 @@
+.review {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.review__logo {
+  width: 32px;
+}
+
+.review__rating {
+  display: flex;
+  padding-top: 4px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.review__rating-stars {
+  display: flex;
+  gap: 4px;
+}
+
+.review__rating-star-icon {
+  display: flex;
+}
+
+.review__rating-text {
+  color: #aeaeae;
+  font-size: 14px;
+  line-height: 24px;
+}
+.review__rating-text--highlighted {
+  color: #47566e;
+  font-weight: 700;
+}

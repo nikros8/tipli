@@ -11,7 +11,7 @@
   padding: 38px 38px 22px 38px;
   border: 2px solid #61a60e;
   border-radius: 16px;
-  filter: drop-shadow(0 15px 83px #9f9f9f1f);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.12);
   background-color: white;
 }
 
