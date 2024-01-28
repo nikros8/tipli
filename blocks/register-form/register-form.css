@@ -15,16 +15,19 @@
   background-color: white;
 }
 
+.register-form--margin {
+  margin-top: 0;
+}
+
 .register-form__bonus-info {
   position: absolute;
   top: -22px;
-  width: 292px;
-  height: 40px;
+
   border-radius: 4px;
   padding: 8px 16px;
   text-align: center;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 800;
   line-height: 24px;
   letter-spacing: 0.3px;
   filter: drop-shadow(0 1px 2px #0000001f);
@@ -93,6 +96,7 @@
 }
 
 .register-form__social-register-item {
+  cursor: pointer;
   display: flex;
   justify-content: center;
   width: 64px;
@@ -102,6 +106,7 @@
 }
 
 .register-form__social-register-logo {
+  pointer-events: none;
   width: 24px;
 }
 .register-form__social-register-logo--smaller {
@@ -126,4 +131,22 @@
 .register-form__login-link {
   text-decoration: underline;
   color: #ec7700;
+}
+
+@media (max-width: 1160px) {
+  .register-form {
+    width: auto;
+  }
+
+  .register-form--margin {
+    margin-top: 24px;
+    margin-bottom: 32px;
+  }
+  .register-form__bonus-info {
+    border: 2px solid #61a60e;
+    font-weight: 700;
+    letter-spacing: 0.32px;
+    background-color: white;
+    color: #61a60e;
+  }
 }

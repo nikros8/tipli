@@ -42,3 +42,16 @@
   color: white;
   background-color: #f27c03;
 }
+
+@media (max-width: 1300px) {
+  .navbar__content-container {
+    padding-right: 90px;
+    padding-left: 90px;
+  }
+}
+
+@media (max-width: 1160px) {
+  .navbar__content-container {
+    padding: 12px 16px;
+  }
+}

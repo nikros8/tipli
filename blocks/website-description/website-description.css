@@ -3,7 +3,7 @@
   flex-direction: column;
 }
 
-.website-description--margin-top {
+.website-description--margin {
   margin-top: 50px;
 }
 
@@ -21,7 +21,6 @@
   display: flex;
   flex-direction: column;
   margin-top: 40px;
-  margin-bottom: 80px;
   row-gap: 16px;
 }
 .website-description__checklist-item {
@@ -37,4 +36,27 @@
 }
 .website-description__checklist-item-description--highlighted {
   font-weight: 700;
+}
+
+@media (max-width: 1160px) {
+  .website-description {
+    padding: 0px 11px;
+  }
+  .website-description--margin {
+    margin-top: 0;
+    margin-bottom: 32px;
+  }
+  .website-description__heading {
+    font-size: 32px;
+  }
+  .website-description__heading--highlighted {
+    font-weight: 700;
+  }
+  .website-description__checklist-container {
+    margin-top: 24px;
+  }
+  .website-description__checklist-item-description {
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
