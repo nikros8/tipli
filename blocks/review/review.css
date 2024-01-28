@@ -28,12 +28,12 @@
 }
 
 .review__rating-text {
-  color: #aeaeae;
+  color: var(--grey-2);
   font-size: 14px;
   line-height: 24px;
 }
 .review__rating-text--highlighted {
-  color: #47566e;
+  color: var(--grey-3);
   font-weight: 700;
 }
 

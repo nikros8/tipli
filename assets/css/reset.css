@@ -11,15 +11,6 @@ p {
   padding: 0;
 }
 
-ul,
-ol {
-  list-style: none;
-}
-
-* {
-  box-sizing: border-box;
-}
-
 a {
   text-decoration: none;
   color: inherit;
@@ -30,8 +21,4 @@ button {
   padding: 0;
   background: none;
   cursor: pointer;
-}
-
-input {
-  outline: none;
 }

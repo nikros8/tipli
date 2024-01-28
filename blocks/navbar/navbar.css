@@ -1,7 +1,7 @@
 .navbar {
   display: flex;
   justify-content: center;
-  border-bottom: 1px solid #d9d9d9;
+  border-bottom: 1px solid var(--grey-4);
 }
 .navbar__content-container {
   display: flex;
@@ -34,13 +34,13 @@
 }
 
 .navbar__button--login {
-  border: 1px solid #54565a;
+  border: 1px solid var(--grey-1);
 }
 
 .navbar__button--register {
   font-weight: 500;
-  color: white;
-  background-color: #f27c03;
+  color: var(--white);
+  background: var(--orange-gradient);
 }
 
 @media (max-width: 1300px) {

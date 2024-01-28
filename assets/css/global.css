@@ -1,8 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 
+:root {
+  --white: #ffffff;
+  --orange: #ec7700;
+  --green: #61a60e;
+  --grey-1: #54565a;
+  --grey-2: #aeaeae;
+  --grey-3: #47566e;
+  --grey-4: #d9d9d9;
+  --orange-gradient: radial-gradient(652.15% 474.45% at 26.41% 0.85%, #eb7701 0%, #f27c03 100%);
+}
+
 * {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
+  box-sizing: border-box;
 }
 
 body {
