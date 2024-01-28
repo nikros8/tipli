@@ -1,14 +1,16 @@
 .navbar {
   display: flex;
   justify-content: center;
-  border-bottom: 1px solid var(--grey-4);
 }
 .navbar__content-container {
   display: flex;
-  width: 1440px;
-  padding: 11px 160px 12px 160px;
   justify-content: space-between;
   align-items: center;
+  max-width: 1440px;
+  width: 100%;
+  height: 64px;
+  padding: 0px 160px;
+  border-bottom: 1px solid var(--grey-4);
 }
 
 .navbar__logo {
@@ -30,7 +32,9 @@
   align-items: center;
   font-size: 14px;
   line-height: 24px;
+  border: none;
   border-radius: 6px;
+  background: none;
 }
 
 .navbar__button--login {

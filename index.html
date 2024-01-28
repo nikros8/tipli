@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>tipli.sk</title>
     <!-- Global css -->
-    <link rel="stylesheet" href="assets/css/reset.css" />
     <link rel="stylesheet" href="assets/css/global.css" />
     <!-- Components css -->
     <link rel="stylesheet" href="blocks/header/header.css" />
@@ -17,16 +16,14 @@
     <link rel="stylesheet" href="blocks/donkey/donkey.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="navbar">
-        <div class="navbar__content-container">
-          <a href="#" class="navbar__logo">
-            <object type="image/svg+xml" data="assets/images/logos/logo-tipli.svg"></object>
-          </a>
-          <div class="navbar__auth-container">
-            <button class="navbar__button navbar__button--login">Přihlásit se</button>
-            <button class="navbar__button navbar__button--register">Založit účet</button>
-          </div>
+    <header class="navbar">
+      <div class="navbar__content-container">
+        <a href="#" class="navbar__logo">
+          <object type="image/svg+xml" data="assets/images/logos/logo-tipli.svg"></object>
+        </a>
+        <div class="navbar__auth-container">
+          <button class="navbar__button navbar__button--login">Přihlásit se</button>
+          <button class="navbar__button navbar__button--register">Založit účet</button>
         </div>
       </div>
     </header>
@@ -87,8 +84,9 @@
             <h3 class="register-form__heading">Začněte získavat peníze zpět</h3>
             <form class="register-form__email-register">
               <input
-                type="text"
                 class="register-form__email-register-input"
+                type="text"
+                autocomplete="email"
                 placeholder="Zadejte váš email"
               />
               <button class="register-form__email-register-button">Založit účet ZDARMA</button>
@@ -122,7 +120,9 @@
               </div>
               <div class="register-form__social-register-text-gdpr">
                 Registrací souhlasíte s podmínkami užití a se
-                <a href="#"><u>zpracováním osobních údajů.</u></a>
+                <a class="register-form__social-register-link-gdpr" href="#"
+                  ><u>zpracováním osobních údajů.</u></a
+                >
               </div>
             </div>
             <div class="register-form__login-text">

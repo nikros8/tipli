@@ -4,17 +4,18 @@
 }
 
 .website-description--margin {
-  margin-top: 50px;
+  margin-top: 52px;
 }
 
 .website-description__heading {
   font-size: 48px;
   line-height: 55.8px;
   font-weight: 400;
+  margin: 0;
 }
 .website-description__heading--highlighted {
   color: var(--orange);
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .website-description__checklist-container {

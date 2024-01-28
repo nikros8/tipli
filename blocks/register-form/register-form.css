@@ -38,6 +38,7 @@
   font-size: 20px;
   font-weight: 600;
   line-height: 32px;
+  margin: 0;
   color: var(--grey-1);
 }
 
@@ -73,6 +74,8 @@
   font-size: 16px;
   font-weight: 600;
   line-height: 16px;
+  letter-spacing: 0.32px;
+  border: none;
   color: var(--white);
   background-color: #f27c03;
 }
@@ -122,6 +125,10 @@
   color: var(--grey-2);
 }
 
+.register-form__social-register-link-gdpr {
+  color: inherit;
+}
+
 .register-form__login-text {
   font-size: 12px;
   line-height: 20px;
@@ -129,7 +136,6 @@
   color: var(--grey-1);
 }
 .register-form__login-link {
-  text-decoration: underline;
   color: var(--orange);
 }
 
