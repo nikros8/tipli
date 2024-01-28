@@ -8,33 +8,35 @@
 }
 
 .website-description__heading {
-  font-size: 48px;
-  line-height: 55.8px;
-  font-weight: 400;
   margin: 0;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 55.8px;
 }
 .website-description__heading--highlighted {
-  color: var(--orange);
   font-weight: 500;
+  color: var(--orange);
 }
 
 .website-description__checklist-container {
   display: flex;
   flex-direction: column;
-  margin-top: 40px;
   row-gap: 16px;
+  margin-top: 40px;
 }
 .website-description__checklist-item {
   display: flex;
   align-items: center;
   column-gap: 16px;
 }
-.website-description__checklist-item-icon-checkmark {
-}
+/* .website-description__checklist-item-icon-checkmark {
+} */
+
 .website-description__checklist-item-description {
   font-size: 20px;
   line-height: 32px;
 }
+
 .website-description__checklist-item-description--highlighted {
   font-weight: 700;
 }
@@ -43,19 +45,24 @@
   .website-description {
     padding: 0px 11px;
   }
+
   .website-description--margin {
     margin-top: 0;
     margin-bottom: 32px;
   }
+
   .website-description__heading {
     font-size: 32px;
   }
+
   .website-description__heading--highlighted {
     font-weight: 700;
   }
+
   .website-description__checklist-container {
     margin-top: 24px;
   }
+
   .website-description__checklist-item-description {
     font-size: 16px;
     line-height: 24px;

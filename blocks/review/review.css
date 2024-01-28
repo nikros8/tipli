@@ -11,10 +11,10 @@
 
 .review__rating {
   display: flex;
-  padding-top: 4px;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  padding-top: 4px;
   gap: 4px;
 }
 
@@ -28,13 +28,14 @@
 }
 
 .review__rating-text {
-  color: var(--grey-2);
   font-size: 14px;
   line-height: 24px;
+  color: var(--grey-2);
 }
+
 .review__rating-text--highlighted {
-  color: var(--grey-3);
   font-weight: 700;
+  color: var(--grey-3);
 }
 
 @media (max-width: 1160px) {
