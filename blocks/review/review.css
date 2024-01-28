@@ -19,6 +19,7 @@
 }
 
 .review__rating-stars {
+  cursor: pointer;
   display: flex;
   gap: 4px;
 }

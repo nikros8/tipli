@@ -66,6 +66,7 @@
 }
 
 .register-form__email-register-button {
+  cursor: pointer;
   width: 100%;
   height: 56px;
   margin-top: 12px;
