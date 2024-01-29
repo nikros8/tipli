@@ -144,7 +144,7 @@
 @media (max-width: 1160px) {
   .register-form {
     width: 100%;
-    padding: 38px 12px 22px 12px;
+    padding: 38px 13.5px 22px 13.5px;
   }
 
   .register-form--margin {
@@ -153,9 +153,11 @@
   }
 
   .register-form__bonus-info {
-    top: -25px;
+    top: -22px;
+    padding: 7px 14px 8px 14px;
     border: 2px solid var(--green);
     font-weight: 700;
+    line-height: 20px;
     letter-spacing: 0.32px;
     background-color: var(--white);
     color: var(--green);
